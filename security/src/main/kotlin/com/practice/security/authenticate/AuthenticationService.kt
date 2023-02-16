@@ -1,6 +1,6 @@
 package com.practice.security.authenticate
 
-import com.practice.security.Config.JwtService
+import com.practice.security.config.JwtService
 import com.practice.security.http.AuthenticationRequest
 import com.practice.security.http.AuthenticationResponse
 import com.practice.security.http.RegisterRequest
@@ -10,10 +10,7 @@ import com.practice.security.repository.UserRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.security.authentication.AuthenticationManager
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken
-import org.springframework.security.core.userdetails.User
-import org.springframework.security.core.userdetails.UserDetails
 import org.springframework.security.crypto.password.PasswordEncoder
-import org.springframework.stereotype.Repository
 import org.springframework.stereotype.Service
 
 @Service

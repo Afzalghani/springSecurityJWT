@@ -59,9 +59,8 @@
 //}
 
 
-package com.practice.security.Config
+package com.practice.security.config
 
-import com.practice.security.Config.JwtService
 import jakarta.servlet.FilterChain
 import jakarta.servlet.ServletException
 import jakarta.servlet.http.HttpServletRequest

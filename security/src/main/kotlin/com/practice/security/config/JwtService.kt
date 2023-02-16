@@ -1,4 +1,4 @@
-package com.practice.security.Config
+package com.practice.security.config
 
 import io.jsonwebtoken.Claims
 import io.jsonwebtoken.Jwts
@@ -9,7 +9,6 @@ import org.springframework.security.core.userdetails.UserDetails
 import org.springframework.stereotype.Service
 import java.security.Key
 import java.util.*
-import java.util.Base64.Decoder
 import java.util.function.Function
 import kotlin.collections.HashMap
 
